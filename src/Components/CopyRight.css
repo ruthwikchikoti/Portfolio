@@ -1,0 +1,33 @@
+/* CopyRight.css */
+
+.copyright-container {
+    display: flex;
+    background-color: #141414;
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin-top: 90px;
+}
+
+.copyright-text {
+    color: #e3e9f0;
+    font-size: 14px;
+
+    margin-top: 10px;
+
+}
+p{
+    color: #fff;
+}
+.social-icons-copy{
+    display: flex;
+    
+    width: 200px;
+    margin-top: 10px;
+    justify-content: space-between;     
+}
+
+.social-icons-copy i {
+    color: #e2e9f0;
+    font-size: 20px;
+    cursor: pointer;
+}

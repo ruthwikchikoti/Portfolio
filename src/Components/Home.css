@@ -1,0 +1,79 @@
+
+.home{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 60px;
+}
+
+
+.handwave  
+{
+    color: #fff;
+}
+.txt-color{
+    color: #f5f2f7;
+}   
+
+.type{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: start;
+    width: 50%;
+    color: white;
+    margin-left: 10%;
+}
+
+img{
+    width: 55%;
+    height: 55%;
+    margin-left: 20px;
+}
+
+.main-name{
+    font-size: 2.5rem;
+    color: #CB70FF;
+}
+
+.type-effect{
+    font-size: 2.5rem;
+    color: #CB70FF;
+    margin-left: 20px;
+}
+
+
+@keyframes wave{
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(14deg);
+    }
+    20%{
+        transform: rotate(-8deg);
+    }
+    30%{
+        transform: rotate(14deg);
+    }
+    40%{
+        transform: rotate(-4deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.hand-shake{
+    animation: wave 2s infinite;
+    display: inline-block;
+    transform-origin: 70% 70%;
+    font-size: 3rem;
+    margin-left: 20px;
+    }

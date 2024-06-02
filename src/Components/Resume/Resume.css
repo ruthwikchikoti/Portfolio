@@ -1,0 +1,46 @@
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.h1-res{
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.pdf-viewer {
+    width: 100%;
+    max-width: 800px; 
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #ddd; 
+    box-shadow: 0 0 10px rgba(179, 24, 24, 0.1);
+}
+
+.pdf-embed {
+    width: 100%;
+    height: 500px; 
+}
+
+.download-button {
+    padding: 10px 20px;
+    background-color: #8b4cc5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;     
+}
+
+.download-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background-color: #1c232b;
+}
