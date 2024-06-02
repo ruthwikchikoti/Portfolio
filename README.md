@@ -1,3 +1,1 @@
-**
-Portfolio
-link :**https://portfolio-ruthwikchikotis-projects.vercel.app/
+**Portfolio** **link:** https://portfolio-ruthwikchikotis-projects.vercel.app/
