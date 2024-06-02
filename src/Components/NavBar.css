@@ -58,9 +58,6 @@ nav div{
   padding: 0 15px;
 }
 
-.nav-item:hover {
-  color: #ffeb3b;
-}
 
 .nav-item a::after {
   content: "";

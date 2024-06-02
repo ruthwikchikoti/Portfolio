@@ -6,7 +6,7 @@ function About() {
         <div className="about-container" id='about'>
             <div className="about-content">
                 <div className="about-intro">
-                    <h1>Know Who I'M</h1>
+                    <h1 className='h1-abt'>Know Who I'M</h1>
 
                     <p> Hi everyone, I am <span className="highlight-text">Ruthwik Chikoto</span> from <span className="highlight-text">Telangana, India</span>.
                         <br />

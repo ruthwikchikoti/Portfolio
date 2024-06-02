@@ -2,6 +2,7 @@ import React from 'react';
 import Typeeffect from './Typeeffect';
 import './Home.css';
 import  HomeMain from '../Assets/home-main.svg';
+import About_Home from './About-home';
 
 function Home() {
   const textArray = [
@@ -23,6 +24,7 @@ function Home() {
           <img src={HomeMain} alt="home-main" />
         </div>
       </section>
+      <About_Home />
     </div>
   );
 }

@@ -1,10 +1,9 @@
-
 import React from 'react';
 import './Resume.css';
 
 function Resume() {
     const pdfLink = "https://drive.google.com/uc?export=download&id=1Jy6KKB5yQGWSB-tl3Ux-mSjXzd-Ici7N";
-   const embedLink = "https://drive.google.com/file/d/1Jy6KKB5yQGWSB-tl3Ux-mSjXzd-Ici7N/preview";
+    const embedLink = "https://drive.google.com/file/d/1Jy6KKB5yQGWSB-tl3Ux-mSjXzd-Ici7N/preview";
 
     return (
         <div className="resume-container" id='resume'>
